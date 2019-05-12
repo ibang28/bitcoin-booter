@@ -1,0 +1,30 @@
+挖矿，生成区块————>
+[
+  "4a5e2c6f5e78943d9ea134e47174251b8af9d8faf746b548294f1fe0897c42c6",
+  "5bf85495e05fc90db42e79f76f3305b44e8e8b9aadf4a38fc00b05517ea78aaa",
+  "2c573be661a799c6b4d2e1d24630d38c29ba80cb8e6b902b30e5e16bd06b31d5",
+  "26a776deb1d4ead1620b657dfc4138f405d33c90ba1d2644b6f2617955055016",
+  ...
+]
+查看BTC————>
+5000.00000000
+生成新的账户和地址————>
+转账一定的余额给新地址————>
+d65248707931ec81469ea0c977acfdeb2d11160c2f4a0efd2422a0a40d4246f6
+生成新的区块，使得交易得到确认————>
+[
+  "0e0f929a48d84b2e4c11bf33451e0784f7299fb4dd36bf286cfd62c269f3742b"
+]
+查看余额————>
+[
+  {
+    "address": "2MxqTgH9omScVePVPrKjCtvGnMehsTsE1os",
+    "account": "kk",
+    "amount": 100.00000000,
+    "confirmations": 1,
+    "label": "kk",
+    "txids": [
+      "d65248707931ec81469ea0c977acfdeb2d11160c2f4a0efd2422a0a40d4246f6"
+    ]
+  }
+]

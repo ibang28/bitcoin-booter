@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  omnicored:
+    container_name: btc-regtest
+    image: kylemanna/bitcoind
+    volumes:
+      - ./bitcoin.conf:/bitcoin/.bitcoin/bitcoin.conf
+    ports:
+      - 8333:8333
+      - 18332:18332
